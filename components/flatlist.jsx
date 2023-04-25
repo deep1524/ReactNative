@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, View } from 'react-native';
 
 const user = [
     {
@@ -24,14 +24,17 @@ function User() {
       <View>
         <Text>list</Text>
   
-        <FlatList data={user} renderItem={({item})=><Text>{item.name}</Text>}>
+        <FlatList data={user} renderItem={({item})=><Text style={styles.textbox}>{item.name}</Text>}>
   
         </FlatList>
-        <FlatList data={user} renderItem={({item})=><Text>{item.id}</Text>}>
+        <FlatList data={user} renderItem={({item})=><Text style={styles.textbox}>{item.id}</Text>}>
   
   </FlatList>
       </View>
     );
   }
 
+  const styles = StyleSheet.create({
+    textbox: {fontSize: 18, borderColor: 'red', borderWidth: 2,margin:5,padding:5},
+  });
 export default User

@@ -10,13 +10,15 @@ import React, {useState} from 'react';
 import { StyleSheet, } from 'react-native';
 import User from './components/flatlist';
 import Basic from './components/basic';
+import Custom from './components/custom';
 
 function App() {
 
   return (
     <>
-    <Basic/>
-    <User/>
+    {/* <Basic/>
+    <User/> */}
+    <Custom/>
     </>
   );
 }
