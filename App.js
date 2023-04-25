@@ -7,23 +7,22 @@
 
 import React, {useState} from 'react';
 
-import { StyleSheet, } from 'react-native';
+import {StyleSheet} from 'react-native';
 import User from './components/flatlist';
 import Basic from './components/basic';
 import Custom from './components/custom';
+import MakeGrid from './components/MakeGrid';
 
 function App() {
-
   return (
     <>
-    {/* <Basic/>
-    <User/> */}
-    <Custom/>
+      {/* <Basic />
+      <User />
+      <Custom /> */}
+      <MakeGrid />
     </>
   );
 }
-
-
 
 const styles = StyleSheet.create({
   textbox: {fontSize: 18, borderColor: 'red', borderWidth: 2},

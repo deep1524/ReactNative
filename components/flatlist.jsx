@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, View ,ScrollView } from 'react-native';
 
 const user = [
     {
@@ -18,6 +18,27 @@ const user = [
       id: 4,
       name: 'DEEP',
     },
+    {
+        id: 4,
+        name: 'DEEP',
+      },
+      {
+        id: 4,
+        name: 'DEEP',
+      },
+      {
+        id: 4,
+        name: 'DEEP',
+      },
+      {
+        id: 4,
+        name: 'DEEP',
+      },
+      {
+        id: 4,
+        name: 'DEEP Yadav',
+      },
+
   ];
 function User() {
     return (
@@ -28,8 +49,10 @@ function User() {
   
         </FlatList>
         <FlatList data={user} renderItem={({item})=><Text style={styles.textbox}>{item.id}</Text>}>
+      
   
   </FlatList>
+
       </View>
     );
   }
