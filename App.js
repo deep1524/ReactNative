@@ -12,6 +12,7 @@ import User from './components/flatlist';
 import Basic from './components/basic';
 import Custom from './components/custom';
 import MakeGrid from './components/MakeGrid';
+import Componentswithfaltlist from './components/Componentswithfaltlist';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <Basic />
       <User />
       <Custom /> */}
-      <MakeGrid />
+       {/* <MakeGrid /> */}
+      <Componentswithfaltlist/>
     </>
   );
 }
