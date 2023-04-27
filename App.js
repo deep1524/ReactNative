@@ -13,20 +13,20 @@ import Basic from './components/basic';
 import Custom from './components/custom';
 import MakeGrid from './components/MakeGrid';
 import Componentswithfaltlist from './components/Componentswithfaltlist';
+import Section_List from './components/SectionList';
 
 function App() {
   return (
     <>
-      {/* <Basic />
-      <User />
-      <Custom /> */}
-       {/* <MakeGrid /> */}
-      <Componentswithfaltlist/>
+       {/* <Basic />
+       <User/>
+      <Custom /> 
+       <MakeGrid />
+      <Componentswithfaltlist/> */}
+      <Section_List/>
     </>
   );
 }
 
-const styles = StyleSheet.create({
-  textbox: {fontSize: 18, borderColor: 'red', borderWidth: 2},
-});
+
 export default App;
