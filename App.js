@@ -14,6 +14,7 @@ import Custom from './components/custom';
 import MakeGrid from './components/MakeGrid';
 import Componentswithfaltlist from './components/Componentswithfaltlist';
 import Section_List from './components/SectionList';
+import Classcomponents from './components/Classcomponents';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       <Custom /> 
        <MakeGrid />
       <Componentswithfaltlist/> */}
-      <Section_List/>
+      {/* <Section_List/> */}
+      <Classcomponents/>
     </>
   );
 }
