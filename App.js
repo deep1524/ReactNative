@@ -18,11 +18,12 @@ import Classcomponents from './components/Classcomponents';
 import Use_effect from './components/Use_effect';
 import Show_Hide_Components from './components/Show_Hide_Components';
 import Unmount from './components/useEffect_unmount_life_cycle';
+import Responsive_Layout from './components/Responsive_Layout';
 
 function App() {
   return (
     <>
-          {/* <Basic />
+           {/* <Basic />
        <User/>
       <Custom /> 
        <MakeGrid />
@@ -30,8 +31,9 @@ function App() {
        <Section_List/> 
        <Classcomponents/>  
       <Use_effect/> 
-      <Show_Hide_Components/> */}
-      <Unmount/>
+      <Show_Hide_Components/> 
+      <Unmount/> */}
+      <Responsive_Layout/>
     </>
   );
 }
