@@ -21,6 +21,7 @@ import Unmount from './components/useEffect_unmount_life_cycle';
 import Responsive_Layout from './components/Responsive_Layout';
 import Style_button_inReactNative from './components/Style_button_inReactNative';
 import Radio_Button from './components/Radio_Button';
+import Radio_Button_Dynamic from './components/Radio_Button_Dynamic';
 
 function App() {
   return (
@@ -36,9 +37,11 @@ function App() {
       <Show_Hide_Components/> 
       <Unmount/>  
       <Responsive_Layout/>
-      {/* <Style_button_inReactNative/> */}
- 
+      {/* <Style_button_inReactNative/> 
       <Radio_Button/>
+      */}
+ 
+      <Radio_Button_Dynamic/>
     </>
   );
 }
