@@ -14,7 +14,7 @@ const Radio_Button_Dynamic = () => {
   return (
     <View style={styles.main}>
       <Text>Radio Button</Text>
-
+{/* Dynmic radio button */}
 
       {
         Skill.map((item,index)=>{
