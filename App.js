@@ -26,6 +26,7 @@ import Loader from './components/Loader';
 import Modal_open from './components/Modal';
 import Status_Bar from './components/Status_Bar';
 import Pressable_com from './components/Pressable_com';
+import Plate_form from './components/plateform';
 
 function App() {
   return (
@@ -47,9 +48,10 @@ function App() {
   <Loader/>
    <Modal_open/>
      <Status_Bar/>
+      <Pressable_com />
    */}
 
-      <Pressable_com />
+     <Plate_form/>
     </>
   );
 }
