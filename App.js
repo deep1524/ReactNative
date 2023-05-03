@@ -24,6 +24,7 @@ import Radio_Button from './components/Radio_Button';
 import Radio_Button_Dynamic from './components/Radio_Button_Dynamic';
 import Loader from './components/Loader';
 import Modal_open from './components/Modal';
+import Status_Bar from './components/Status_Bar';
 
 function App() {
   return (
@@ -43,9 +44,11 @@ function App() {
       <Radio_Button/>
         <Radio_Button_Dynamic/>
   <Loader/>
+   <Modal_open/>
    */}
  
-     <Modal_open/>
+    
+     <Status_Bar/>
     </>
   );
 }
