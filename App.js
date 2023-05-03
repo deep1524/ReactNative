@@ -25,11 +25,12 @@ import Radio_Button_Dynamic from './components/Radio_Button_Dynamic';
 import Loader from './components/Loader';
 import Modal_open from './components/Modal';
 import Status_Bar from './components/Status_Bar';
+import Pressable_com from './components/Pressable_com';
 
 function App() {
   return (
     <>
-           {/* <Basic />
+      {/* <Basic />
        <User/>
       <Custom /> 
        <MakeGrid />
@@ -45,13 +46,12 @@ function App() {
         <Radio_Button_Dynamic/>
   <Loader/>
    <Modal_open/>
-   */}
- 
-    
      <Status_Bar/>
+   */}
+
+      <Pressable_com />
     </>
   );
 }
-
 
 export default App;
