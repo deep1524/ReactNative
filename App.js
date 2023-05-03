@@ -23,6 +23,7 @@ import Style_button_inReactNative from './components/Style_button_inReactNative'
 import Radio_Button from './components/Radio_Button';
 import Radio_Button_Dynamic from './components/Radio_Button_Dynamic';
 import Loader from './components/Loader';
+import Modal_open from './components/Modal';
 
 function App() {
   return (
@@ -41,10 +42,10 @@ function App() {
       {/* <Style_button_inReactNative/> 
       <Radio_Button/>
         <Radio_Button_Dynamic/>
- 
+  <Loader/>
    */}
  
-      <Loader/>
+     <Modal_open/>
     </>
   );
 }
