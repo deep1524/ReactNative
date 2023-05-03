@@ -22,6 +22,7 @@ import Responsive_Layout from './components/Responsive_Layout';
 import Style_button_inReactNative from './components/Style_button_inReactNative';
 import Radio_Button from './components/Radio_Button';
 import Radio_Button_Dynamic from './components/Radio_Button_Dynamic';
+import Loader from './components/Loader';
 
 function App() {
   return (
@@ -39,9 +40,11 @@ function App() {
       <Responsive_Layout/>
       {/* <Style_button_inReactNative/> 
       <Radio_Button/>
-      */}
+        <Radio_Button_Dynamic/>
  
-      <Radio_Button_Dynamic/>
+   */}
+ 
+      <Loader/>
     </>
   );
 }
