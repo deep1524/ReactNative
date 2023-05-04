@@ -29,7 +29,7 @@ import Pressable_com from './components/Pressable_com';
 import Plate_form from './components/plateform';
 import Web_view from './components/webview';
 import Stack_Naviagation from './components/Stack_Naviagation';
-
+import Tab_navigation from "./components/tab_navigation"
 function App() {
   return (
     <>
@@ -53,11 +53,12 @@ function App() {
       <Pressable_com />
         <Plate_form/>
            <Web_view/>
+            <Stack_Naviagation/>
    */}
 
    
-  
-     <Stack_Naviagation/>
+  <Tab_navigation/>
+    
     </>
   );
 }
