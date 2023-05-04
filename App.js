@@ -28,6 +28,7 @@ import Status_Bar from './components/Status_Bar';
 import Pressable_com from './components/Pressable_com';
 import Plate_form from './components/plateform';
 import Web_view from './components/webview';
+import Stack_Naviagation from './components/Stack_Naviagation';
 
 function App() {
   return (
@@ -51,10 +52,12 @@ function App() {
      <Status_Bar/>
       <Pressable_com />
         <Plate_form/>
+           <Web_view/>
    */}
 
    
-     <Web_view/>
+  
+     <Stack_Naviagation/>
     </>
   );
 }
