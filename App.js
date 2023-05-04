@@ -32,6 +32,7 @@ import Stack_Naviagation from './components/Stack_Naviagation';
 import Tab_navigation from "./components/tab_navigation"
 import Api_call from './components/Api_call';
 import List_with_Api_call from './components/List_with_api_call';
+import FlatList_with_Api_call from './components/FlatList_api_call';
 function App() {
   return (
     <>
@@ -58,13 +59,15 @@ function App() {
             <Stack_Naviagation/>
               <Tab_navigation/>
                <Api_call/>
+               <List_with_Api_call/>
    */}
 
    
 
     
    
-    <List_with_Api_call/>
+    
+    <FlatList_with_Api_call/>
     </>
   );
 }
