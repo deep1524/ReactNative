@@ -10,6 +10,7 @@ const FlatList_with_Api_call = () => {
     // console.warn(response);
   };
   console.warn(data);
+  // flat list api call
   useEffect(() => {
     getData();
   }, []);
