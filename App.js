@@ -33,6 +33,8 @@ import Tab_navigation from "./components/tab_navigation"
 import Api_call from './components/Api_call';
 import List_with_Api_call from './components/List_with_api_call';
 import FlatList_with_Api_call from './components/FlatList_api_call';
+import Json_server from './components/Json_server';
+import Post_api_call from './components/Post_api_call';
 function App() {
   return (
     <>
@@ -60,6 +62,8 @@ function App() {
               <Tab_navigation/>
                <Api_call/>
                <List_with_Api_call/>
+                <FlatList_with_Api_call/>
+                 <Json_server/>
    */}
 
    
@@ -67,7 +71,9 @@ function App() {
     
    
     
-    <FlatList_with_Api_call/>
+   
+   
+    <Post_api_call/>
     </>
   );
 }

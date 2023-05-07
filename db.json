@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+ 
+    {
+      "name": "Pooja",
+      "age": 26,
+      "email": "pooja@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Pooja Yadav",
+      "age": 26,
+      "email": "pooja@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Pooja Yadav with love",
+      "age": 26,
+      "email": "pooja@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Pooja Yadav with love 2",
+      "age": 26,
+      "email": "pooja@gmail.com",
+      "id": 4
+    }
+  ]
+}
