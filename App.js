@@ -35,6 +35,7 @@ import List_with_Api_call from './components/List_with_api_call';
 import FlatList_with_Api_call from './components/FlatList_api_call';
 import Json_server from './components/Json_server';
 import Post_api_call from './components/Post_api_call';
+import Post_api_call_with_inputfield from './components/Post_api_call_with_inputfield';
 function App() {
   return (
     <>
@@ -64,16 +65,11 @@ function App() {
                <List_with_Api_call/>
                 <FlatList_with_Api_call/>
                  <Json_server/>
+                   <Post_api_call/>
    */}
 
    
-
-    
-   
-    
-   
-   
-    <Post_api_call/>
+    <Post_api_call_with_inputfield/>
     </>
   );
 }
