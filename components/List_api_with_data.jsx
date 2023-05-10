@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text, View } from 'react-native'
-// data api
+// data api with data
 const List_api_with_data = () => {
   return (
     <View>
