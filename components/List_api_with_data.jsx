@@ -85,7 +85,7 @@ const List_api_with_data_deleteMethod = () => {
         : null}
       {/* modal */}
       <Modal visible={showmodal} transparent={true}>
-        <UserModal setShowmodal={setShowmodal} seletcteddata={seletcteddata} />
+        <UserModal setShowmodal={setShowmodal} seletcteddata={seletcteddata} getapiData={getapiData} />
       </Modal>
     </ScrollView>
   );
@@ -103,23 +103,50 @@ const UserModal = props => {
       setEmail(props.seletcteddata.email);
     }
   }, [props.seletcteddata]);
+  const userUpdate=async()=>{
+    const id=props.seletcteddata.id;
+    const updateData={
+      name:name,
+      age:age,
+      email:email
+    }
+    console.warn(id)
+    let url = `http://10.0.2.2:3000/users/${id}`;
+    let result = await fetch(url, {
+      method: 'PUT',
+      headers: {"Content-Type": "application/json"
+      },
+      body: JSON.stringify(updateData)
+    });
+    result = await result.json();
+    if (result) {
+      console.warn('User update successfully');
+      props.getapiData();
+      props.setShowmodal(false);
+    }
+  }
   return (
     <View style={styles.centeredview}>
       <View style={styles.modalView}>
         <TextInput
           value={name}
           style={styles.input}
-          placeholder="enter your name"></TextInput>
+          placeholder="enter your name" 
+          onChangeText={(text)=>setName(text)}></TextInput>
         <TextInput
           value={age}
           style={styles.input}
-          placeholder="enter your age"></TextInput>
+          placeholder="enter your age" 
+          onChangeText={(text)=>setAge(text)}
+          ></TextInput>
         <TextInput
           value={email}
           style={styles.input}
-          placeholder="enter your email"></TextInput>
+          placeholder="enter your email"
+          onChangeText={(text)=>setEmail(text)}
+          ></TextInput>
         <View style={{marginBottom: 10}}>
-          <Button title="udpdate"></Button>
+          <Button title="udpdate" onPress={userUpdate}></Button>
         </View>
 
         <Button title="close" onPress={() => props.setShowmodal(false)} />

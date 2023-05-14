@@ -18,8 +18,8 @@
   },
   "users": [
     {
-      "name": "Pooja",
-      "age": 26,
+      "name": "Pooja yadav with dk yadav",
+      "age": "28",
       "email": "pooja@gmail.com",
       "id": 1
     },
@@ -30,21 +30,21 @@
       "id": 2
     },
     {
-      "name": "Pooja Yadav with love",
-      "age": 26,
+      "name": "Pooja Yadav with love you",
+      "age": "26",
       "email": "pooja@gmail.com",
       "id": 3
     },
     {
       "name": "Pooja Yadav with love 2",
-      "age": 26,
+      "age": "25",
       "email": "pooja@gmail.com",
       "id": 4
     },
     {
       "name": "Pooja Yadav with love 2",
-      "age": 26,
-      "email": "pooja@gmail.com",
+      "age": "20",
+      "email": "pooja@gmail.commm",
       "id": 5
     },
     {
