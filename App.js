@@ -36,6 +36,8 @@ import FlatList_with_Api_call from './components/FlatList_api_call';
 import Json_server from './components/Json_server';
 import Post_api_call from './components/Post_api_call';
 import Post_api_call_with_inputfield from './components/Post_api_call_with_inputfield';
+import List_api_with_data from './components/List_api_with_data';
+import List_api_with_data_deleteMethod from './components/List_api_with_data';
 function App() {
   return (
     <>
@@ -66,10 +68,11 @@ function App() {
                 <FlatList_with_Api_call/>
                  <Json_server/>
                    <Post_api_call/>
+                    <Post_api_call_with_inputfield/>
    */}
 
+   <List_api_with_data_deleteMethod/>
    
-    <Post_api_call_with_inputfield/>
     </>
   );
 }
