@@ -38,6 +38,7 @@ import Post_api_call from './components/Post_api_call';
 import Post_api_call_with_inputfield from './components/Post_api_call_with_inputfield';
 import List_api_with_data from './components/List_api_with_data';
 import List_api_with_data_deleteMethod from './components/List_api_with_data';
+import Search_with_api from './components/Search_with_api';
 function App() {
   return (
     <>
@@ -69,10 +70,11 @@ function App() {
                  <Json_server/>
                    <Post_api_call/>
                     <Post_api_call_with_inputfield/>
+                    <List_api_with_data_deleteMethod/>most imported components
    */}
 
-   <List_api_with_data_deleteMethod/>
    
+   <Search_with_api/>
     </>
   );
 }
