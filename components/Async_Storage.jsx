@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {Button, Text, View} from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-// async storage implementation
+// async storage implementation very important
 const Async_Storage = () => {
   const [user, setUser] = useState('');
   const setData = async () => {
