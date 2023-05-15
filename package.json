@@ -8,9 +8,10 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "server":"json-server --watch db.json"
+    "server": "json-server --watch db.json"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.18.1",
     "@react-navigation/bottom-tabs": "^6.5.7",
     "@react-navigation/material-top-tabs": "^6.6.2",
     "@react-navigation/native": "^6.1.6",
