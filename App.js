@@ -4,7 +4,7 @@
  *
  * @format
  */
-// very imortent
+// very imortent things
 import React, {useState} from 'react';
 
 import {StyleSheet} from 'react-native';
